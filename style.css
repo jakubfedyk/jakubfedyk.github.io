@@ -1,0 +1,48 @@
+* {
+    background-color: lightsteelblue;
+    font-family: Helvetica sans-serif;
+}
+header{
+    display:inline;
+}
+header div {
+    font-size: 60px;
+}
+
+header div2 {
+    display: inline;
+    font-size: 30px;
+}
+main article {
+    position:absolute;
+    top: 200px;
+    width: 1000px;
+    border: solid;
+}
+article{
+    color: darkred;
+    font-size:25px;
+}
+section {
+    position:absolute;
+    width:300px;
+    text-align:center;
+    top: 200px ;
+    right:50px;
+    border: solid;
+}
+ul {
+    color: seagreen;
+    font-size:25px;
+}
+ul li {
+    list-style-type: none;
+    font-size:25px;
+}
+footer div {
+    position: absolute;
+    text-align: center;
+    width:99%;
+    bottom: 0;
+    background-color: darkorange;
+}
