@@ -1,34 +1,37 @@
 * {
     background-color: lightsteelblue;
-    font-family: Helvetica sans-serif;
+    font-family: Helvetica, sans-serif;
 }
-header{
-    display:inline;
+
+#container {
+    width: 1000px;
+    margin: auto;
 }
-header div {
+
+.foto {
+    width: 120px;
+    height: 150px;
+}
+header {
+    display:block;
+}
+
+header h1 {
     font-size: 60px;
 }
 
-header div2 {
-    display: inline;
+header h2 {
     font-size: 30px;
-}
-main article {
-    position:absolute;
-    top: 200px;
-    width: 1000px;
-    border: solid;
 }
 article{
     color: darkred;
     font-size:25px;
 }
 section {
-    position:absolute;
     width:300px;
-    text-align:center;
-    top: 200px ;
-    right:50px;
+    text-align: center;
+    200px;
+    50px;
     border: solid;
 }
 ul {
@@ -40,7 +43,6 @@ ul li {
     font-size:25px;
 }
 footer div {
-    position: absolute;
     text-align: center;
     width:99%;
     bottom: 0;
