@@ -12,27 +12,43 @@
     width: 120px;
     height: 150px;
 }
-header {
-    display:block;
+
+p {
+    display: inline;
 }
 
-header h1 {
+h1 {
     font-size: 60px;
+    display: inline;
+    position: relative;
+    bottom: 50px;
 }
 
-header h2 {
+h2 {
     font-size: 30px;
+    display: inline;
+    position: relative;
+    right: 370px;
 }
-article{
+
+article {
     color: darkred;
     font-size:25px;
+    width: 60%;
+    float: left;
+    margin-bottom: 150px;
 }
-section {
-    width:300px;
+
+#right {
+    float: left;
+    display: inline;
+    width: 40%;
     text-align: center;
-    200px;
-    50px;
-    border: solid;
+    margin-bottom: 150px;
+}
+
+section > p {
+    font-size: 25px;
 }
 ul {
     color: seagreen;
@@ -42,9 +58,9 @@ ul li {
     list-style-type: none;
     font-size:25px;
 }
-footer div {
+
+footer > div {
+    clear: both;
     text-align: center;
-    width:99%;
-    bottom: 0;
     background-color: darkorange;
 }
