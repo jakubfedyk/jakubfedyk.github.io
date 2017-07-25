@@ -1,0 +1,87 @@
+* {
+    background-color: lightsteelblue;
+    font-family: Helvetica, sans-serif;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    display: inline;
+}
+
+.container__photo {
+    width: 120px;
+    height: 150px;
+}
+
+.container__title1 {
+    font-size: 50px;
+    position: relative;
+    bottom: 50px;
+    display: inline;
+}
+
+.container__title2 {
+    font-size: 20px;
+    position: relative;
+    right: 300px;
+    display: inline;
+}
+
+.first__text {
+    color: darkred;
+    font-size: 25px;
+    width: 60%;
+    float: left;
+    margin-bottom: auto;
+}
+
+.formular {
+    background-color: crimson;
+    text-align:center;
+    margin-top: 40px;
+}
+.formular {
+    font-size:30px;
+}
+form {
+    font-size:30px;
+    text-align:center;
+}
+input {
+    size:30px;
+    font-family: "Fira Code";
+}
+.right__text {
+    float: left;
+    display: inline;
+    width: 40%;
+    margin-bottom: 150px;
+}
+
+.list__projects {
+    color: seagreen;
+    text-align: center;
+    font-size: 25px;
+}
+
+.link1 {
+    list-style-type: none;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.link2 {
+    list-style-type: none;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.container__footer {
+    bottom: 0;
+    clear: both;
+    text-align: center;
+    background-color: darkorange;
+}

@@ -3,36 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <title>Strona tytułowa</title>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
 </head>
 <body>
-<div id="container">
-<header>
-    <p><img class="foto" src="profilowe.jpg" alt="Profil"></p>
-    <h1>Jakub Fedyk</h1>
-    <h2>Junior Frontend Developer</h2>
-</header>
+<div class="container">
+    <header>
+        <img class="container__photo" src="images/profilowe.jpg" alt="Profil">
+        <h1 class="container__title1">Jakub Fedyk</h1>
+        <h2 class="container__title2">Junior Frontend Developer</h2>
+    </header>
 <main>
-    <article>
-        <p> Hello everyone. I attend to IT course. At the beggining my expierience with IT, first of all I will learn
+    <article class="main__text">
+        <p class="first__text"> Hello everyone. I attend to IT course. At the beggining my expierience with IT, first of
+            all I will learn
             basic programming language: <strong>HTML</strong> and <strong>CSS</strong>. After that, second step lead to
             more difficult programming language
             for example <strong>JAVA</strong>. This course allow to gain skills, to become
             <mark>Junior Frontend Developer.</mark>
         </p>
     </article>
-    <div id="right">
+    <div class="right__text">
         <section>
-            <p>Projects</p>
-            <ul>
-                <li><a href="https://github.com/jakubfedyk/jakubfedyk.github.io">Repository Jakub Fedyk</li>
-                <li><a href="https://github.com/infoshareacademy/jfdzl1-red-coders">Repository RedCoders</li>
-            </ul>
+            <ul class="list__projects">Projects</ul>
+            <li class="link1"><a href="https://github.com/jakubfedyk/jakubfedyk.github.io">Repository Jakub Fedyk</a>
+            </li>
+            <li class="link2"><a href="https://github.com/infoshareacademy/jfdzl1-red-coders">Repository RedCoders</a>
+            </li>
         </section>
+        <div class="formular">Contact Me!
+            <form method="POST" action="http://api.jfdzl1.is-academy.pl/emailer.php">
+                <input type="hidden" name="reply-to" value="jakubfedyk@gmail.com">
+                <label>Your name: <input type="text" name="name"></label><br/>
+                <label>Your e-mail: <input type="text" name="email"></label><br/>
+                <label>Message:<textarea name="message"></textarea></label>
+                <input type="submit" value="Send">
+            </form>
+        </div>
     </div>
 </main>
 <footer>
-    <div>
+    <div class="container__footer">
         Created by Jakub Fedyk
     </div>
 </footer>
