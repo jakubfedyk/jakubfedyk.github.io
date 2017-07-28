@@ -6,22 +6,21 @@
 .container {
     width: 1000px;
     margin: 0 auto;
-    display: inline;
 }
 
-.container__photo {
+.header__photo {
     width: 120px;
     height: 150px;
 }
 
-.container__title1 {
+.header__title1 {
     font-size: 50px;
     position: relative;
     bottom: 50px;
     display: inline;
 }
 
-.container__title2 {
+.header__title2 {
     font-size: 20px;
     position: relative;
     right: 300px;
@@ -38,20 +37,24 @@
 
 .formular {
     background-color: crimson;
-    text-align:center;
+    text-align: center;
     margin-top: 40px;
 }
+
 .formular {
-    font-size:30px;
+    font-size: 30px;
 }
+
 form {
-    font-size:30px;
-    text-align:center;
+    font-size: 30px;
+    text-align: center;
 }
+
 input {
-    size:30px;
+    size: 30px;
     font-family: "Fira Code";
 }
+
 .right__text {
     float: left;
     display: inline;
@@ -84,4 +87,5 @@ input {
     clear: both;
     text-align: center;
     background-color: darkorange;
+
 }
