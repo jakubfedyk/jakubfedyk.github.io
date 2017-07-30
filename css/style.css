@@ -66,16 +66,10 @@ input {
     color: seagreen;
     text-align: center;
     font-size: 25px;
-}
-
-.link1 {
     list-style-type: none;
-    font-size: 25px;
-    text-align: center;
-
 }
 
-.link2 {
+.link {
     list-style-type: none;
     font-size: 25px;
     text-align: center;
@@ -89,3 +83,4 @@ input {
     background-color: darkorange;
 
 }
+
