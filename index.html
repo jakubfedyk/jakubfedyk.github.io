@@ -5,32 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap 101 Template</title>
-
-    <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <title>Moja strona tytułowa</title>
+    <title>Moja strona</title>
     <link rel="stylesheet" type="text/css" href="./css/style.css"/>
 </head>
 <body>
 <div class="container">
-    <header class="header">
-        <img class="header__photo" src="./images/profile.jpg" alt="Profil">
-        <h1 class="header__title1">Jakub Fedyk</h1>
-        <h2 class="header__title2">Junior Frontend Developer</h2>
-        <button type="button box_shadow"> About Author</button>
-    </header>
+    <div class="row">
+        <div class="col-sm-12">
+            <header class="header">
+                <img class="header__photo" src="./images/profile.jpg" alt="Profil">
+                <h1 class="header__title1">Jakub Fedyk</h1>
+                <h2 class="header__title2">Junior Frontend Developer</h2>
+                <button type="button box_shadow"> About Author</button>
+            </header>
+        </div>
+    </div>
+</div>
 <main>
-    <article class="main__text">
-        <p class="first__text"> Hello everyone. I attend to IT course. At the beggining my expierience with IT, first of
-            all I will learn
-            basic programming language: <strong>HTML</strong> and <strong>CSS</strong>. After that, second step lead to
-            more difficult programming language
-            for example <strong>JAVA</strong>. This course allow to gain skills, to become
-            <mark>Junior Frontend Developer.</mark>
-        </p>
-    </article>
-    <div class="right__text">
-        <section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <article class="main__text">
+                    <p class="first__text"> Hello everyone. I attend to IT course. At the beggining my expierience with
+                        IT,
+                        first of
+                        all I will learn
+                        basic programming language: <strong>HTML</strong> and <strong>CSS</strong>. After that, second
+                        step
+                        lead to
+                        more difficult programming language
+                        for example <strong>JAVA</strong>. This course allow to gain skills, to become
+                        <mark>Junior Frontend Developer.</mark>
+                    </p>
+                </article>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="right__text">
             <ul class="list__projects">
                 <li>Projects</li>
                 <li class="link"><a href="https://github.com/jakubfedyk/jakubfedyk.github.io">Repository Jakub Fedyk</a>
@@ -39,20 +53,26 @@
                     RedCoders</a>
             </li>
             </ul>
-        </section>
-        <div class="formular">Contact Me!
-            <form method="POST" action="http://api.jfdzl1.is-academy.pl/emailer.php">
-                <input type="hidden" name="reply-to" value="jakubfedyk@gmail.com">
-                <label>Your name: <input type="text" name="name"></label><br/>
-                <label>Your e-mail: <input type="text" name="email"></label><br/>
-                <label>Message:<textarea name="message"></textarea></label>
-                <input type="submit" value="Send">
-            </form>
+            </div>
+        </div>
+        <div class="container">
+            <div class="col-sm-12">
+                <div class="formular">Contact Me!
+                    <form method="POST" action="http://api.jfdzl1.is-academy.pl/emailer.php">
+                        <input type="hidden" name="reply-to" value="jakubfedyk@gmail.com">
+                        <label>Your name: <input type="text" name="name"></label><br/>
+                        <label>Your e-mail: <input type="text" name="email"></label><br/>
+                        <label>Message:<textarea name="message"></textarea></label>
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
+            </div>
+        </div>
         </div>
     </div>
 </main>
 <footer>
-    <div class="container__footer">
+    <div class="container">
         Created by Jakub Fedyk
     </div>
 </footer>

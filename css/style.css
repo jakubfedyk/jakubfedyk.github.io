@@ -3,28 +3,23 @@
     font-family: Helvetica, sans-serif;
 }
 
-.container {
-    width: 1000px;
-    margin: 0 auto;
-}
 
 .header__photo {
+    float: left;
     width: 120px;
     height: 150px;
 }
 
 .header__title1 {
+    float: left;
     font-size: 50px;
-    position: relative;
-    bottom: 50px;
-    display: inline;
+
 }
 
 .header__title2 {
-    font-size: 20px;
-    position: relative;
-    right: 300px;
     display: inline;
+    float: left;
+    font-size: 20px;
 }
 
 .button {
@@ -32,7 +27,7 @@
     font-family: cursive;
 
 }
-    .box_shadow {
+.box_shadow {
     box-shadow: inset 5px 5px 10px red;
 }
 .first__text {
@@ -64,8 +59,6 @@ input {
 }
 
 .right__text {
-    float: left;
-    display: inline;
     width: 40%;
     margin-bottom: 150px;
 }
@@ -91,4 +84,3 @@ input {
     background-color: darkorange;
 
 }
-
