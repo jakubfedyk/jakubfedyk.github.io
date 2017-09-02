@@ -27,6 +27,14 @@
     display: inline;
 }
 
+.button {
+    display:inline;
+    font-family: cursive;
+
+}
+    .box_shadow {
+    box-shadow: inset 5px 5px 10px red;
+}
 .first__text {
     color: darkred;
     font-size: 25px;
