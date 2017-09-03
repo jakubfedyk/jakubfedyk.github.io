@@ -4,26 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <title>Moja strona</title>
     <link rel="stylesheet" type="text/css" href="./css/style.css"/>
 </head>
 <body>
-<div class="container">
+<div class="container header">
     <div class="row">
         <div class="col-sm-12">
-            <header class="header">
-                <img class="header__photo" src="./images/profile.jpg" alt="Profil">
-                <h1 class="header__title1">Jakub Fedyk</h1>
-                <h2 class="header__title2">Junior Frontend Developer</h2>
+                <img class="img-rounded" src="./images/profile.jpg" alt="Profile">
+                <h1 class="header__title">Jakub Fedyk</h1>
+                <h2 class="header__title second_title">Junior Frontend Developer</h2>
                 <button type="button box_shadow"> About Author</button>
-            </header>
         </div>
     </div>
 </div>
-<main>
-    <div class="container">
+<div class="container main">
         <div class="row">
             <div class="col-sm-12">
                 <article class="main__text">
@@ -42,42 +38,43 @@
             </div>
         </div>
     </div>
+<div class="container aside">
     <div class="row">
         <div class="col-sm-12">
             <div class="right__text">
-            <ul class="list__projects">
-                <li>Projects</li>
-                <li class="link"><a href="https://github.com/jakubfedyk/jakubfedyk.github.io">Repository Jakub Fedyk</a>
-            </li>
-                <li class="link"><a href="https://github.com/infoshareacademy/jfdzl1-red-coders">Repository
-                    RedCoders</a>
-            </li>
-            </ul>
+                <ul class="list__projects">
+                    <li>Projects</li>
+                    <li class="link"><a href="https://github.com/jakubfedyk/jakubfedyk.github.io">Repository Jakub
+                        Fedyk</a>
+                    </li>
+                    <li class="link"><a href="https://github.com/infoshareacademy/jfdzl1-red-coders">Repository
+                        RedCoders</a>
+                    </li>
+                </ul>
             </div>
-        </div>
-        <div class="container">
-            <div class="col-sm-12">
-                <div class="formular">Contact Me!
-                    <form method="POST" action="http://api.jfdzl1.is-academy.pl/emailer.php">
-                        <input type="hidden" name="reply-to" value="jakubfedyk@gmail.com">
-                        <label>Your name: <input type="text" name="name"></label><br/>
-                        <label>Your e-mail: <input type="text" name="email"></label><br/>
-                        <label>Message:<textarea name="message"></textarea></label>
-                        <input type="submit" value="Send">
-                    </form>
-                </div>
-            </div>
-        </div>
         </div>
     </div>
-</main>
-<footer>
-    <div class="container">
+</div>
+<div class="container form">
+    <div class="col-sm-12">
+        <div class="formular">Contact Me!
+            <form method="POST" action="http://api.jfdzl1.is-academy.pl/emailer.php">
+                <input type="hidden" name="reply-to" value="jakubfedyk@gmail.com">
+                <label>Your name: <input type="text" name="name"></label><br/>
+                <label>Your e-mail: <input type="text" name="email"></label><br/>
+                <label>Message:<textarea name="message"></textarea></label>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </div>
+</div>
+<div class="container footer">
+    <div class="row">
         Created by Jakub Fedyk
     </div>
-</footer>
+</div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -1,24 +1,15 @@
-* {
-    background-color: lightsteelblue;
-    font-family: Helvetica, sans-serif;
+.header {
+    background: url("../images/pexels-photo-355770.jpeg") no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
 }
-
-
-.header__photo {
+.img-rounded {
     float: left;
     width: 120px;
     height: 150px;
+    margin-right: 20px;
 }
-
-.header__title1 {
-    float: left;
-    font-size: 50px;
-
-}
-
-.header__title2 {
-    display: inline;
-    float: left;
+.second_title {
     font-size: 20px;
 }
 
@@ -42,9 +33,6 @@
     background-color: crimson;
     text-align: center;
     margin-top: 40px;
-}
-
-.formular {
     font-size: 30px;
 }
 
