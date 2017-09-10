@@ -45,15 +45,16 @@
             </div>
         </div>
 </div>
-<div class="container form">
+<div class="container mail">
     <div class="row">
         <div class="col-sm-12">
             <div class="formular">Contact Me!
                 <form method="POST" action="http://api.jfdzl1.is-academy.pl/emailer.php">
-                    <input type="hidden" name="reply-to" value="jakubfedyk@gmail.com">
-                    <label>Your name: <input type="text" name="name"></label><br/>
-                    <label>Your e-mail: <input type="text" name="email"></label><br/>
-                    <label>Message:<textarea name="message"></textarea></label>
+                    <label class="control-label">Your name: </label><input type="text" name="name"
+                                                                           class="form-control input-lg">
+                    <label class="control-label" for="email">Your e-mail: </label>
+                    <input type="email" name="reply-to" id="email" class="form-control input-lg">
+                    <label class="control-label">Message:<textarea name="message" class="input-lg"></textarea></label>
                     <input type="submit" value="Send">
                 </form>
             </div>
@@ -64,7 +65,6 @@
     <div class="row">
         Created by Jakub Fedyk
     </div>
-</div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

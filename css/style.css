@@ -34,16 +34,22 @@
 }
 
 .formular {
-    text-align: center;
     background-color: crimson;
     margin-top: 40px;
     font-size: 30px;
 }
 
-.form {
+.mail:first-line {
+    text-align: center;
+}
+
+.mail {
     font-size: 30px;
 }
 
+.label {
+    display: block;
+}
 .input {
     size: 30px;
     font-family: "Fira Code";
