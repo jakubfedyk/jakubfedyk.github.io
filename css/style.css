@@ -1,3 +1,4 @@
+
 .header {
     background: url("../images/pexels-photo-355770.jpeg") no-repeat;
     background-size: cover;
@@ -13,6 +14,10 @@
     font-size: 20px;
 }
 
+.right__text {
+   float:right;
+}
+
 .button {
     display:inline;
     font-family: cursive;
@@ -21,41 +26,36 @@
 .box_shadow {
     box-shadow: inset 5px 5px 10px red;
 }
-.first__text {
+.main__text {
     color: darkred;
     font-size: 25px;
     width: 60%;
-    float: left;
     margin-bottom: auto;
 }
 
 .formular {
-    background-color: crimson;
     text-align: center;
+    background-color: crimson;
     margin-top: 40px;
     font-size: 30px;
 }
 
-form {
+.form {
     font-size: 30px;
-    text-align: center;
 }
 
-input {
+.input {
     size: 30px;
     font-family: "Fira Code";
 }
 
-.right__text {
-    width: 40%;
-    margin-bottom: 150px;
-}
 
 .list__projects {
     color: seagreen;
     text-align: center;
     font-size: 25px;
     list-style-type: none;
+    line-height: 250%;
 }
 
 .link {
