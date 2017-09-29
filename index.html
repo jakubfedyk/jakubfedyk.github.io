@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
     <title>Moja strona</title>
     <link rel="stylesheet" type="text/css" href="./css/style.css"/>
 </head>
 <body>
 <div class="container header">
     <div class="row">
-        <div class="col-sm-12">
+        <div class="col-12">
                 <img class="img-rounded" src="./images/profile.jpg" alt="Profile">
                 <h1 class="header__title">Jakub Fedyk</h1>
                 <h2 class="header__title second_title">Junior Frontend Developer</h2>
@@ -19,9 +18,9 @@
         </div>
     </div>
 </div>
-<div class="container main">
-        <div class="row">
-            <div class="main__text col-md-8"> Hello everyone. I attend to IT course. At the beggining my expierience
+<div class="container_main">
+        <div class="row text">
+            <div class="main__text col-6"> Hello everyone. I attend to IT course. At the beggining my expierience
                 with IT,
                 first of
                 all I will learn
@@ -32,7 +31,7 @@
                 for example <strong>JAVA</strong>. This course allow to gain skills, to become
                         <mark>Junior Frontend Developer.</mark>
             </div>
-            <div class="right__text col-md-4">
+            <div class="right__text col-6">
                 <ul class="list__projects">
                     <li>Projects</li>
                     <li class="link"><a href="https://github.com/jakubfedyk/jakubfedyk.github.io">Repository Jakub
@@ -45,9 +44,9 @@
             </div>
         </div>
 </div>
-<div class="container mail">
+<div class="container_mail">
     <div class="row">
-        <div class="col-sm-12">
+        <div class="col-8">
             <div class="formular">Contact Me!
                 <form method="POST" action="http://api.jfdzl1.is-academy.pl/emailer.php">
                     <label class="control-label">Your name: </label><input type="text" name="name"
@@ -61,12 +60,13 @@
         </div>
     </div>
 </div>
-<div class="container footer">
+<div class="container_footer">
     <div class="row">
-        Created by Jakub Fedyk
+        <div class="col-12">
+            Created by Jakub Fedyk
+        </div>
+
     </div>
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
