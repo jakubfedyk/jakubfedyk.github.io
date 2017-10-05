@@ -1,7 +1,11 @@
 body {
-    background: url("../images/pexels-photo-355770.jpeg") no-repeat;
+    background: url("../images/pexels-photo-355770.jpeg") no-repeat fixed;
     background-size: cover;
     box-sizing: border-box;
+}
+
+.container_header {
+    overflow: hidden;
 }
 .header {
     margin-bottom: 20px;
@@ -16,6 +20,9 @@ body {
     font-size: 20px;
 }
 
+.container_main {
+    overflow: hidden
+}
 .right__text {
    float:right;
 }
@@ -23,14 +30,12 @@ body {
 .button {
     display:inline;
     font-family: cursive;
-
 }
 
 .text_about {
     float:left;
     display: flex;
     justify-content: flex-start;
-
 }
 .box_shadow {
     box-shadow: inset 5px 5px 10px red;
@@ -42,39 +47,6 @@ body {
     color: darkred;
     font-size: 25px;
     width: 60%;
-}
-
-.formular {
-    font-size: 30px;
-
-}
-
-.formular:first-line {
-    text-align: center;
-}
-
-span {
-    display: flex;
-
-    justify-content: center;
-}
-
-.container_mail {
-    font-size: 30px;
-    clear: both;
-}
-
-.label {
-    display: block;
-}
-.input {
-    size: 30px;
-    font-family: "Fira Code";
-}
-
-.input-lg {
-    display: flex;
-    flex-direction: column;
 }
 
 .list__projects {
@@ -89,21 +61,19 @@ span {
     list-style-type: none;
     font-size: 25px;
     text-align: center;
-
-}
-
-.control-label {
-    display: flex;
-    flex-direction: column;
 }
 
 .container_footer {
-    position:absolute;
-    width:100%;
-    clear: both;
+    min-height: 100%;
+    position: relative;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
     text-align: center;
     color: #122b40;
-    border: solid;
     background-color: white;
     border-color: white;
 }
