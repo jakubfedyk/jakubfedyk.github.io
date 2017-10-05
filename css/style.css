@@ -63,19 +63,12 @@ body {
     text-align: center;
 }
 
-.container_footer {
-    min-height: 100%;
-    position: relative;
-}
-
 .footer {
     position: absolute;
-    width: 100%;
     bottom: 0;
     text-align: center;
-    color: #122b40;
-    background-color: white;
-    border-color: white;
+    color: white;
+    font-style: italic;
 }
 
 .row {
