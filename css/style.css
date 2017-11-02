@@ -1,30 +1,23 @@
-body {
-    background: url("../images/pexels-photo-355770.jpeg") no-repeat fixed;
-    background-size: cover;
-    box-sizing: border-box;
-}
 
-.container_header {
-    overflow: hidden;
-}
+
 .header {
     margin-bottom: 20px;
 }
 .img-rounded {
-    float: left;
     width: 120px;
     height: 150px;
     margin-right: 20px;
 }
+.header_text {
+    display: flex;
+    justify-content: flex-start;
+}
 .second_title {
     font-size: 20px;
 }
-
-.container_main {
-    overflow: hidden
-}
-.right__text {
-   float:right;
+.text_about {
+    display: flex;
+    justify-content: flex-start;
 }
 
 .button {
@@ -32,21 +25,12 @@ body {
     font-family: cursive;
 }
 
-.text_about {
-    float:left;
-    display: flex;
-    justify-content: flex-start;
-}
 .box_shadow {
     box-shadow: inset 5px 5px 10px red;
 }
 .main__text {
-    padding:10px;
-    margin:10px;
-    display:block;
     color: darkred;
     font-size: 25px;
-    width: 60%;
 }
 
 .list__projects {
@@ -64,63 +48,10 @@ body {
 }
 
 .footer {
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    color: white;
+    display: flex;
     font-style: italic;
 }
+.img_class {
 
-.row {
-    clear: both;
-    padding: 0px;
-    margin: 0px;
 }
 
-.col-1 {
-    width: 8.33%;
-}
-
-.col-2 {
-    width: 16.66%;
-}
-
-.col-3 {
-    width: 25%;
-}
-
-.col-4 {
-    width: 33.33%;
-}
-
-.col-5 {
-    width: 41.66%;
-}
-
-.col-6 {
-    width: 50%;
-}
-
-.col-7 {
-    width: 58.33%;
-}
-
-.col-8 {
-    width: 66.66%;
-}
-
-.col-9 {
-    width: 75%;
-}
-
-.col-10 {
-    width: 83.33%;
-}
-
-.col-11 {
-    width: 91.66%;
-}
-
-.col-12 {
-    width: 100%;
-}

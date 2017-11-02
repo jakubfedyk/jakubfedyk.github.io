@@ -6,21 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Moja strona</title>
     <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/grid.css"/>
 </head>
 <body>
 <div class="container_header">
-    <div class="row">
-        <div class="col-12">
-                <img class="img-rounded" src="./images/profile.jpg" alt="Profile">
+    <div class="header_text row">
+        <div class="col-6">
+            <img class="img-rounded" src="./images/profile.JPG" alt="Profile">
                 <h1 class="header__title">Jakub Fedyk</h1>
-                <h2 class="header__title second_title">Junior Frontend Developer</h2>
+                <h2 class="second_title">Junior Frontend Developer</h2>
                 <button type="button box_shadow"> About Author</button>
         </div>
+        <div class="col-6"> jakasjdbasdnasidnVarnish each side of the seaweed with one quarter cup of okra.</div>
     </div>
 </div>
 <div class="container_main">
     <div class="row text_about">
-            <div class="main__text col-6"> Hello everyone. I attend to IT course. At the beggining my expierience
+            <div class="main__text col-8"> Hello everyone. I attend to IT course. At the beggining my expierience
                 with IT,
                 first of
                 all I will learn
@@ -29,9 +31,9 @@
                 lead to
                 more difficult programming language
                 for example <strong>JAVA</strong>. This course allow to gain skills, to become
-                        <mark>Junior Frontend Developer.</mark>
+                <mark>Junior Frontend Developer.</mark>
             </div>
-            <div class="right__text col-6">
+            <div class="right__text col-4">
                 <ul class="list__projects">
                     <li>Projects</li>
                     <li class="link"><a href="https://github.com/jakubfedyk/jakubfedyk.github.io">Repository Jakub
@@ -45,11 +47,13 @@
         </div>
 </div>
 <div class="container_footer">
-    <div class="row">
-        <div class=" footer">
+    <div class="row footer">
+        <div class="col-12 ">
             Created by Jakub Fedyk
         </div>
     </div>
 </div>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/animation.js"></script>
 </body>
 </html>
