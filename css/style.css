@@ -1,5 +1,4 @@
 
-
 .header {
     margin-bottom: 20px;
 }
@@ -8,8 +7,19 @@
     height: 150px;
     margin-right: 20px;
 }
-.header_text {
+
+.header_main {
     display: flex;
+}
+
+.header_title {
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
     justify-content: flex-start;
 }
 .second_title {
@@ -33,6 +43,10 @@
     font-size: 25px;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
 .list__projects {
     color: seagreen;
     text-align: center;
@@ -51,7 +65,3 @@
     display: flex;
     font-style: italic;
 }
-.img_class {
-
-}
-
