@@ -1,67 +1,10 @@
+.header{
 
-.header {
-    margin-bottom: 20px;
-}
-.img-rounded {
-    width: 120px;
-    height: 150px;
-    margin-right: 20px;
 }
 
-.header_main {
-    display: flex;
+.aside{
+
 }
 
-.header_title {
-    display: flex;
-    flex-direction: row;
-}
-
-.title {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-.second_title {
-    font-size: 20px;
-}
-.text_about {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.button {
-    display:inline;
-    font-family: cursive;
-}
-
-.box_shadow {
-    box-shadow: inset 5px 5px 10px red;
-}
-.main__text {
-    color: darkred;
-    font-size: 25px;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-}
-.list__projects {
-    color: seagreen;
-    text-align: center;
-    font-size: 25px;
-    list-style-type: none;
-    line-height: 250%;
-}
-
-.link {
-    list-style-type: none;
-    font-size: 25px;
-    text-align: center;
-}
-
-.footer {
-    display: flex;
-    font-style: italic;
+.main {
 }
