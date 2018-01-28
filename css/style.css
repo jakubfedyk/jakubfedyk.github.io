@@ -1,10 +1,18 @@
+
+*{
+    overflow:auto;
+}
+
 .header{
 
 }
 
 .aside{
-
 }
 
 .main {
+}
+
+.red {
+    border: 1px red solid;
 }
