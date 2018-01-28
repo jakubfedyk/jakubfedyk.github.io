@@ -15,4 +15,9 @@
 
 .red {
     border: 1px red solid;
+    text-align: center;
+}
+.profile_image {
+    content: url('../images/profile.JPG');
+
 }
