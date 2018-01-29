@@ -13,20 +13,16 @@
 }
 
 .red {
-    border: 1px red solid;
-    color: white;
     display:flex;
     justify-content: space-around;
     align-items: center;
-    flex-direction: row-reverse;
-    font-family: 'Supermercado One', cursive;
+    font-family: 'Lobster', cursive;
 
 }
 .profile_img {
     content: url('../images/profile.JPG');
     width: 60%;
     height: 80%;
-
 }
 .background_img {
     background:url('../images/black-white-wall_925x.jpg');
@@ -34,14 +30,16 @@
     background-repeat: no-repeat;
 
 }
+.first_title {
+    color:white;
+    line-height: normal;
+}
 
 .title_header{
     color: white;
     font-size: large;
-
 }
 .title_header2 {
     color:black;
     font-size: large;
-
 }
