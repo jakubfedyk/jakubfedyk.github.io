@@ -4,7 +4,6 @@
 }
 
 .header{
-
 }
 
 .aside{
@@ -15,9 +14,34 @@
 
 .red {
     border: 1px red solid;
-    text-align: center;
+    color: white;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    font-family: 'Supermercado One', cursive;
+
 }
-.profile_image {
+.profile_img {
     content: url('../images/profile.JPG');
+    width: 60%;
+    height: 80%;
+
+}
+.background_img {
+    background:url('../images/black-white-wall_925x.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.title_header{
+    color: white;
+    font-size: large;
+
+}
+.title_header2 {
+    color:black;
+    font-size: large;
 
 }
