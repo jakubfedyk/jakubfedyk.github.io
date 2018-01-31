@@ -45,3 +45,13 @@ h1 {
     color:black;
     font-size: large;
 }
+
+.skills-icons {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.skills-icons p {
+    margin: 5px;
+}
