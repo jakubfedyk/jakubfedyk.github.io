@@ -1,15 +1,17 @@
 
-*{
-    overflow:auto;
-}
 
 .header{
 }
 
 .aside{
+
+}
+h1 {
+    text-align: center;
 }
 
 .main {
+    margin-top:  5%;
 }
 
 .red {
